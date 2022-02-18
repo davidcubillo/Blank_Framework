@@ -1,0 +1,140 @@
+[
+  {
+    "description": "    Feature Description",
+    "keyword": "Feature",
+    "name": "End to End ecommerse Validation",
+    "line": 1,
+    "id": "end-to-end-ecommerse-validation",
+    "tags": [],
+    "uri": "ecommerse.feature",
+    "elements": [
+      {
+        "id": "end-to-end-ecommerse-validation;ecommerse-products-delivery",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Ecommerse products delivery",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the Landing page",
+            "result": {
+              "status": "passed",
+              "duration": 3982000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add items to cart",
+            "result": {
+              "status": "passed",
+              "duration": 2620000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Validate the total prices",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "select the country submit and verify thankyou",
+            "result": {
+              "status": "passed",
+              "duration": 5635000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-ecommerse-validation;filling-the-form-to-shop",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Filling the form to shop",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I open the Landing page",
+            "result": {
+              "status": "passed",
+              "duration": 1245000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "gender"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "bobz",
+                      "Male"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I fill the form details",
+            "result": {
+              "status": "passed",
+              "duration": 359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "validate the form",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "select the shop page",
+            "result": {
+              "status": "passed",
+              "duration": 971000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
