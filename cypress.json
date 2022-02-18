@@ -4,7 +4,7 @@
   "env": {
     "url": "https://rahulshettyacademy.com/angularpractice/ "
   },
-
+  "testFiles": "**/*.feature",
   "retries":{
 
     "runMode": 1
