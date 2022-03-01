@@ -20,7 +20,7 @@ describe("My second test suite", function () {
     cy.get("button[class='btn btn-primary']").click()
     //ponemos este wait para esperar hasta que el bookretreivals este terminado
     cy.wait('@bookretreivals')
-
+    
 
   })
 })

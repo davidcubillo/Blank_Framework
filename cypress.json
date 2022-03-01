@@ -1,10 +1,10 @@
 {
   "defaultCommandTimeout": 8000,
-  "pageLoadTimeout": 10000,
+  "pageLoadTimeout": 15000,
   "env": {
     "url": "https://rahulshettyacademy.com/angularpractice/ "
   },
-  "testFiles": "**/*.feature",
+  
   "retries":{
 
     "runMode": 1

@@ -67,21 +67,18 @@ Then("select the country submit and verify thankyou", function () {
     expect(alerta.includes("Success")).to.be.true;
   });
 });
-When('I fill the form details',function(dataTable)
-{
-    //podemos tambien cargar los datos desde cucumber pero no es lo mas recomendado
-    homePage.getEditBox().type(this.data.name);
-    homePage.getGender().select(this.data.gender);
-})
-Then ('validate the form',function()
-{
-    homePage.getTwoWayDataBinding().should("have.value", this.data.name);
-    //verificamos que la validacion sea minimo de 2 digitos
-    //homePage.getEditBox().should("have.attr","minlength","2")
-    //verificamos que el radio button este desabilitado
-    homePage.getRadioButtonDisabled().should("be.disabled");
-})
-And ('select the shop page',function()
-{
-    homePage.getShopTab().click();
-}) 
+When("I fill the form details", function (dataTable) {
+  //podemos tambien cargar los datos desde cucumber pero no es lo mas recomendado
+  homePage.getEditBox().type(this.data.name);
+  homePage.getGender().select(this.data.gender);
+});
+Then("validate the form", function () {
+  homePage.getTwoWayDataBinding().should("have.value", this.data.name);
+  //verificamos que la validacion sea minimo de 2 digitos
+  //homePage.getEditBox().should("have.attr","minlength","2")
+  //verificamos que el radio button este desabilitado
+  homePage.getRadioButtonDisabled().should("be.disabled");
+});
+And("select the shop page", function () {
+  homePage.getShopTab().click();
+});
