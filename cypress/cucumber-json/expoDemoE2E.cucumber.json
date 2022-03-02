@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    Feature Description",
+    "keyword": "Feature",
+    "name": "Video Validation",
+    "line": 1,
+    "id": "video-validation",
+    "tags": [],
+    "uri": "expoDemoE2E.feature",
+    "elements": [
+      {
+        "id": "video-validation;expodemo-video-check",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "ExpoDemo Video Check",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the Landing page",
+            "result": {
+              "status": "passed",
+              "duration": 920000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I go to the Videos Page",
+            "result": {
+              "status": "passed",
+              "duration": 994000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Validate all the videos are displayed",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Load a video and check the elements displayed",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

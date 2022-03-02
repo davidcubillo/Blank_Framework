@@ -1,0 +1,16 @@
+{
+  "defaultCommandTimeout": 8000,
+  "pageLoadTimeout": 15000,
+  "env": {
+    "url": "https://rahulshettyacademy.com/angularpractice/ ",
+    "googleURL": "www.google.com"
+  },
+  
+  "retries":{
+
+    "runMode": 1
+  },
+  "hideXHR": true,
+  
+  "projectId": "mod2vs"
+}

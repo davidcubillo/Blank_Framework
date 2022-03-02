@@ -1,0 +1,9 @@
+{
+  "name": "Bob",
+  "gender": "Female",
+  "phone": ["iphone X", "Nokia Edge", "Samsung Note 8"],
+  "country": "Finland",
+  "pay_Message": "Success! Thank you! Your order will be delivered in next few weeks :-). ",
+  "drowpdown_option": "Option2",
+  "drowpdown_index": "3"
+}
