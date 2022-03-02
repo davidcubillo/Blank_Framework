@@ -24,13 +24,14 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add("selectProduct", (productName) => {
+
+/* Cypress.Commands.add("selectProduct", (productName) => {
   cy.get(".col-lg-3.col-md-6").each((elemento, index, list) => {
     if (elemento.text().includes(productName)) {
       cy.get(".card > .card-footer > .btn").eq(index).click();
     }
   });
-});
+}); */
 /*
  * @name selectDropdownwithValue
  * @description Select a value on a dropdown using the Value attribute
@@ -56,6 +57,15 @@ Cypress.Commands.add("selectDropdownwithIndex", (locator, index) => {
  */
 Cypress.Commands.add("checkRadioButton", (locator) => {
   cy.get(locator).check();
+});
+/*
+ * @name typeField
+ * @description Type a text on a selected locator
+ * @param String locator
+ * @param String text
+ */
+Cypress.Commands.add("typeField", (locator,text) => {
+  cy.get(locator).type(text)
 });
 /*
  * @name clickElement
